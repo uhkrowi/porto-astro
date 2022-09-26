@@ -10,9 +10,15 @@ My name’s Nurul,
 
 I’m a freelance web developer.
 
-This site is a place where I show my works and share some of my experiences and learnings about software development and web technology in general.
+<!-- This site is a place where I show my works and share some of my experiences and learnings about software development and web technology in general. -->
 
-You can find me at [Facebook](https://facebook.com/uhkrowi), [LinkedIn](https://www.linkedin.com/in/uhkrowi) or [Telegram](https://t.me/uhkrowi).
+<!-- You can find me at [Facebook](https://facebook.com/uhkrowi), [LinkedIn](https://www.linkedin.com/in/uhkrowi) or [Telegram](https://t.me/uhkrowi). -->
+More about me online: 
+- [GitHub](https://github.com/uhkrowi)
+- [Facebook](https://facebook.com/uhkrowi) 
+- [LinkedIn](https://www.linkedin.com/in/uhkrowi)
+- [Curriculum Vitae](/CV-Nurul-Uhkrowi.pdf)
+<!-- - [Telegram](https://t.me/uhkrowi) -->
 
 <!-- …
 
@@ -69,6 +75,6 @@ Weapon
 
 HTML, CSS, Go, GoFiber, JavaScript, Vue.js, React.js, NodeJS, Express.js, MySQL, PostgreSQL, MongoDB, Git, Wordpress, Heroku, Netlify, Azure, GCP. -->
 
-…
+<!-- … -->
 
-You can get my CV [Here](/CV-Nurul-Uhkrowi.pdf).
+<!-- You can get my CV [Here](/CV-Nurul-Uhkrowi.pdf). -->

@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "DS: Array"
+title: "Data Structure: Array"
 pubDate: "Jul 15, 2022"
 ---
 

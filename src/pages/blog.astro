@@ -35,14 +35,18 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				<ul>
 					{posts.map((post) => (
 						<li>
-							<time datetime={post.frontmatter.pubDate}>
-								{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
-									year: 'numeric',
-									month: 'short',
-									day: 'numeric',
-								})}
-							</time>
-							<a href={post.url}>{post.frontmatter.title}</a>
+							<div style="color: #848484; font-size: 15px;">
+								<time datetime={post.frontmatter.pubDate}>
+									{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
+										year: 'numeric',
+										month: 'short',
+										day: 'numeric',
+									})}
+								</time>
+								<div style="font-size: 20px; margin-bottom: 15px;">
+									<a href={post.url}>{post.frontmatter.title}</a>
+								</div>
+							</div>
 						</li>
 					))}
 				</ul>

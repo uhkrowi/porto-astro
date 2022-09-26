@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "DS: Intro"
+title: "Data Structure: Introduction"
 pubDate: "Mar 16, 2022"
 ---
 
