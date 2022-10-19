@@ -1,6 +1,7 @@
 ---
 layout: "../layouts/BlogPost.astro"
 description: "About | introduction"
+# title: "About the website"
 ---
 
 ## Hi 👋
