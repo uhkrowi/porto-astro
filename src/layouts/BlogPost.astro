@@ -23,8 +23,9 @@ const {
 		<BaseHead title={title} description={description} />
 		<style>
 			.title {
-				font-size: 2em;
-				margin: 0.25em 0 0;
+				font-size: 25px;
+				/* margin: 0.25em 0 0; */
+				font-weight: bold;
 			}
 			hr {
   			border-top: 1px solid #DDD;
@@ -36,6 +37,7 @@ const {
 	<body>
 		<Header />
 		<main>
+			<!-- <article style="backdrop-filter: blur(8px);"> -->
 			<article>
 				{heroImage && (
 					<img
@@ -45,11 +47,11 @@ const {
 						alt=""
 					/>
 				)}
-				<h1 class="title">{title}</h1>
-				{pubDate && <span style="color: #848484;">
+				<span class="title">{title}</span>
+				{/*pubDate && <span style="color: #848484;">
 					<span style="font-size: 14px">Posted at — </span>
 					<time style="font-size: 14px">{pubDate}</time>
-				</span>}
+				</span>*/}
 				{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
 				<slot />
 			</article>

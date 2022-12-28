@@ -14,7 +14,7 @@ Open your Quasar project in terminal and run these commands.
 yarn add -D tailwindcss & npx tailwindcss init
 ```
 
-There will be a new file named tailwind.config.js created. Open the file and add new property “prefix” with value “tw-“, then change value of content property to ["./src/*/*.{html,js,vue}"].
+There will be a new file named tailwind.config.js created. Open the file and add new property `prefix` with value `tw-`, then change value of content property to ["./src/*/*.{html,js,vue}"].
 
 ```javascript
 module.exports = {
@@ -25,7 +25,7 @@ module.exports = {
 
 note: we have to use prefix to avoid clashes of Quasar classes and Tailwind CSS’s.
 
-Now open scr/css/app.scss and add these to import utility classes of Tailwind CSS.
+Now open **scr/css/app.scss** and add these to import utility classes of Tailwind CSS.
 
 ```css
 @import "tailwindcss/base";
@@ -33,7 +33,7 @@ Now open scr/css/app.scss and add these to import utility classes of Tailwind CS
 @import "tailwindcss/utilities";
 ```
 
-The last thing to do is add Tailwind CSS in .postcssrc.js file.
+The last thing to do is add Tailwind CSS in **.postcssrc.js** file.
 
 ```javascript
 require("tailwindcss")

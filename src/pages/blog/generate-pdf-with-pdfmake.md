@@ -4,9 +4,7 @@ title: "Generate PDF with PDFMake"
 pubDate: "Mar 09, 2022"
 ---
 
-In this personal site I decided to generate my CV myself rather than taking up from URL of another website (e.g you could get generated CV from [kalibrr.com](https://uhkrowi.github.io/generate-pdf-with-pdfmake/)).
-
-In my previous project I did the job, generating pdf of documents is pretty simple, there’re some packages you could use out there, one of them is PDFmake.
+In my previous project I did the job generating pdf of documents is pretty simple, there’re some packages you could use out there, one of them is PDFmake.
 
 PDFmake is a package that helps you to generate PDF for server-side and client-side usage in pure JavaScript (read its documentation [here](http://pdfmake.org/)), it’s a powerful tool yet easy to use, it has a [playground](http://pdfmake.org/playground.html) too for you to try it online.
 
@@ -86,7 +84,7 @@ function generateTable(body) {
 }
 ```
 
-Let’s map our data and generate the table with generateTable() function
+Let’s map our data and generate the table with `generateTable()`
 ```javascript
 // generate experiences
 const generatedExperiences = experiences.map((experience) => {
@@ -165,7 +163,7 @@ var dd = {
 };
 ```
 
-The last but not least, create the PDF file and download it. You can just open the file too with .open() function.
+The last but not least, create the PDF file and download it. You can just open the file too with `.open()` function.
 ```javascript
 pdfMake.createPdf(dd).download("Awesome CV");
 ```
