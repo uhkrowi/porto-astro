@@ -1,31 +1,27 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-@font-face {
-	font-family: Bookerly;
+/* @font-face {
+	font-family: "OpenSans-Regular";
 	font-display: swap;
-	src: url('/Bookerly.ttf');
-}
+	src: url('/OpenSans-Regular.ttf');
+} */
 
 @font-face {
-	font-family: Merriweather;
+	font-family: "Inter-Regular";
 	font-display: swap;
-	src: url('/Merriweather-Regular.ttf');
+	src: url('/Inter-Regular.ttf');
 }
 
 body {
-	/* font-family: Bookerly, Verdana, sans-serif; */
-	font-family: Merriweather, Verdana, sans-serif;
+	font-family: "Inter-Regular", sans-serif;
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: rgb(34, 34, 34);
-	font-size: 18px;
+	background-color: #161616;
+	/* color: rgb(34, 34, 34); */
+	color: #ffffff !important;
+	font-size: 1.2em;
 	line-height: 32.4px;
 	vertical-align: baseline;
 	letter-spacing: normal;
@@ -40,7 +36,8 @@ h5,
 h6,
 strong,
 a {
-	color: #0D0F0E;
+	/* color: #0D0F0E; */
+	color: white;
 }
 
 nav a {
@@ -69,25 +66,30 @@ img {
 	height: auto;
 }
 
+/* code>.line>span {
+	font-weight: 500;
+} */
 code {
 	padding: 2px 5px;
-}
-
-code>.line>span {
-	font-weight: 500;
-}
-code {
-	color: rgb(189, 65, 71);
+	/* color: rgb(189, 65, 71); */
+	color: black;
+	font-weight: bolder;
 	background-color: #f7f7f9;
 }
 
 pre {
 	padding: 1rem;
 	border-radius: 5px;
+	border: solid 1px #868686 !important;
+	/* border-color: #ffffff !important; */
+	/* border-style: solid; */
+	/* background-color: rgb(40, 40, 40) !important; */
+	background-color: #202020 !important;
 }
 
 pre>code {
 	all: unset;
+	/* font-size: 16px; */
 }
 
 blockquote {
@@ -95,4 +97,26 @@ blockquote {
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
+}
+
+/* ============================================ */
+
+::-webkit-scrollbar {
+  /* width: 10px; */
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #868686; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #868686; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #707070; 
 }
